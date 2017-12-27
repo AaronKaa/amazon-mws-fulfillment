@@ -17,10 +17,8 @@
 	 "phpunit/phpunit": "5.*"
   },
   "autoload": {
-    "autoload": {
-        "psr-4": {
-            "Aarcarr\\AmazonMwsFulfillment\\": "src"
-        }
-    }
-  }
+	  "psr-4": {
+	     "Aarcarr\\AmazonMwsFulfillment\\": "src"
+	 }
+   }
 }
