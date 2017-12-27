@@ -1,0 +1,26 @@
+{
+  "name": "aarcarr/amazon-mws-fulfillment",
+  "description": "Amazon MWS Fulfillment API PHP Client adapted from the original Amazon version for Laravel",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Aaron Carr",
+      "email": "aar.carr@icloud.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "ext-curl": "*",
+    "illuminate/support": "5.*"
+  },
+  "require-dev": {
+	 "phpunit/phpunit": "5.*"
+  },
+  "autoload": {
+    "autoload": {
+        "psr-4": {
+            "Aarcarr\\AmazonMwsFulfillment\\": "src"
+        }
+    }
+  }
+}
